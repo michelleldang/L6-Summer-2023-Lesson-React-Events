@@ -192,24 +192,24 @@ function App() {
       <div id="calc-display">{ renderDisplayText() }</div>
       <div id="calc-buttons">
         <button onClick={btnClear}>Clear</button>
-        <button onClick={'btnBackspace'}>&lt;×]</button>
-        <button onClick={`btnSelectOperationModulus`}>%</button>
-        <button onClick="btnSelectOperationDivision">÷</button>
-        <button onClick="btnClickNumber7">7</button>
-        <button onClick>8</button>
-        <button>9</button>
-        <button onClick="btnSelectOperationMultiplication">×</button>
-        <button onClick="btnClickNumber4()">4</button>
-        <button onClick="btnClickNumber5()">5</button>
-        <button>6</button>
+        <button onClick={btnBackspace}>&lt;×]</button>
+        <button onClick={btnSelectOperationModulus}>%</button>
+        <button onClick={btnSelectOperationDivision}>÷</button>
+        <button onClick={btnClickNumber7}>7</button>
+        <button onClick={btnClickNumber8}>8</button>
+        <button onClick={btnClickNumber9}>9</button>
+        <button onClick={btnSelectOperationMultiplication}>×</button>
+        <button onClick={btnClickNumber4}>4</button>
+        <button onClick={btnClickNumber5}>5</button>
+        <button onClick={btnClickNumber6}>6</button>
         <button onClick={btnSelectOperationSubtraction}>-</button>
         <button onClick={btnClickNumber1}>1</button>
-        <button onClick>2</button>
-        <button onClick={'btnClickNumber3'}>3</button>
-        <button>+</button>
-        <button onClick={'btnSelectSign'}>±</button>
-        <button onClick={'btnClickNumber0'}>0</button>
-        <button onClick="btnClickNumberPeriod()">.</button>
+        <button onClick={btnClickNumber2}>2</button>
+        <button onClick={btnClickNumber3}>3</button>
+        <button onClick={btnSelectOperationAddition}>+</button>
+        <button onClick={btnSelectSign}>±</button>
+        <button onClick={btnClickNumber0}>0</button>
+        <button onClick={btnClickNumberPeriod}>.</button>
         <button onClick={btnPerformCalculation}>=</button>
       </div>
     </div>
